@@ -1,1 +1,5 @@
+/*/index.html /:splat 301!
 /*/ /:splat 301!
+
+# Ensure the root path doesn't get caught in redirect loop
+/ / 200
